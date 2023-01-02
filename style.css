@@ -32,7 +32,7 @@ section.alternate-background {
 }
 
 main img {
-  width: 100px;
+  width: 500px;
 }
 
 /* ---  Groups & Items --- */
@@ -67,6 +67,8 @@ header {
 
 header nav ul li {
   list-style-type: none;
+  display: inline-flex;
+  padding-bottom: 20px;
 }
 
 header nav ul li a {
@@ -94,6 +96,11 @@ form select,
 form input {
   margin-bottom: 20px;
   width: 180px;
+}
+
+
+input,label {
+ justify-content: center;
 }
 
 form button {

@@ -22,10 +22,10 @@
       <div class="logo">ThinkfulCupid</div>
       <nav>
         <ul id="menu">
-          <li><a>Join</a></li>
-          <li><a>About</a></li>
-          <li><a>Download</a></li>
-          <li><a>Blog</a></li>
+          <li><a href="#join">Join</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#download">Download</a></li>
+          <li><a href="#blog">Blog</a></li>
         </ul>
       </nav>
     </header>
@@ -33,8 +33,40 @@
     <main>
       <!-- Join -->
       <section id="join">
+       
         <img src="images/love.png" alt="ThinkfulCupid - love" />
+        <h1> Find your perfect match </h1>
         <!-- Add join form here -->
+        <form>
+          <fieldset>
+
+            <div>
+            <label for="join">Email</label>
+            <input id="email" type="text" name="name" placeholder="email@example.com"/>
+           </div>
+           <div>
+            <label for="password">Create a Password</label>
+            <input id="password" type="password" name="password"/>
+           </div>
+           <div>
+            <label for="join">Username</label>
+          <input id="username" type="text" name="username"/>
+           </div>
+           <div>
+            <label for="gender/sex"> I am a...</label>
+            <select name="gender" id="gender" size="1">
+              <option value="woman">female</option>
+              <option value="man">male</option>
+              <option value="other">Other</option>
+          </select>
+           </div>
+           <div>
+            <button type="submit">Join</button>
+
+           </div>
+          </fieldset>
+
+
       </section>
 
       <!-- About -->
