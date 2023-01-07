@@ -57,7 +57,7 @@ header {
   background-color: #83092e;
   padding: 20px 20px 0 20px;
   text-align: center;
-  justify-content: center;
+/*  justify-content: center;*/
 }
 
 .logo {
@@ -68,9 +68,9 @@ header {
 
 header nav ul li {
   list-style-type: none;
-  display: inline-flex;
-  justify-content: center;
-  padding-bottom: 20px;
+ /*display: inline-flex;*/
+ /* justify-content: center;*/
+ /* padding-bottom: 20px;*/
 }
 
 header nav ul li a {
