@@ -57,6 +57,7 @@ header {
   background-color: #83092e;
   padding: 20px 20px 0 20px;
   text-align: center;
+  justify-content: center;
 }
 
 .logo {
@@ -68,6 +69,7 @@ header {
 header nav ul li {
   list-style-type: none;
   display: inline-flex;
+  justify-content: center;
   padding-bottom: 20px;
 }
 
@@ -88,6 +90,11 @@ form {
   padding: 10px;
 }
 
+form div {
+  display:flex;
+  justify-content: space-between;
+}
+
 form label {
   font-weight: bold;
 }
@@ -96,12 +103,9 @@ form select,
 form input {
   margin-bottom: 20px;
   width: 180px;
+  margin-left: 5px;
 }
 
-
-input,label {
- justify-content: center;
-}
 
 form button {
   background-color: #83092e;
@@ -124,4 +128,32 @@ footer p {
   padding: 20px;
 }
 
-/* -------  Media Query ------- */
+/* -------  Media Query -------*/ 
+@media all and (min-width: 480px){
+ 
+  header {
+
+      padding: 10px;
+      display:flex;
+  }
+  
+  header nav {
+   flex:1;
+  }
+  header ul{
+    display:block
+  }
+  header ul li{
+    display: inline-block;
+    margin: 0 2 em
+  }
+  
+  header nav ul li a:hover {
+      color: grey;
+  }
+  
+  .group { 
+    flex-direction: row; 
+  }
+  
+  }
